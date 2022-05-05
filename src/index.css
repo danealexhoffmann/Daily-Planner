@@ -1,0 +1,110 @@
+@import url("https://api.fontshare.com/css?f[]=satoshi@300,301,400,401,500,501,700,701,900,901,1,2&display=swap");
+
+body {
+  font-family: "satoshi", sans-serif;
+  background-color: #dad7cd !important;
+  text-align: center;
+}
+
+.greeting {
+  font-size: 5rem;
+  font-weight: 901;
+  color: #ffff;
+  width: 100%;
+  text-align: center;
+  color: #588157;
+}
+
+/* Date */
+.date {
+  margin-bottom: 3rem;
+  color: #ffff;
+}
+
+/* AddTodoForm */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.task-container {
+  background-color: #ffff;
+  width: 12%;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  margin-bottom: 2rem;
+}
+
+.task-name {
+  border: 2.5px solid #ffff;
+  border-radius: 30px;
+  background-color: #ffff;
+}
+
+.task-submit {
+  border: 2.5px solid #588157;
+  border-radius: 100%;
+  background-color: #588157;
+  margin: 2%;
+  color: white;
+  font-weight: 500;
+}
+
+/* TodoList */
+
+.list-container {
+  width: 100%;
+}
+
+ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  justify-content: center;
+  width: 30%;
+  border: 2.5px solid #ffff;
+  border-radius: 10px;
+  background-color: #ffff;
+  padding-left: 10px;
+}
+
+/* TodoItem */
+
+li {
+  font-family: "satoshi", sans-serif;
+}
+
+.checkbox {
+  width: 1.5em;
+  height: 1.5em;
+  background-color: white;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  outline: none;
+  cursor: pointer;
+  margin-right: 2%;
+  color: #588157;
+}
+
+.delete-button {
+  float: right;
+  border: 2.5px solid #ffff;
+  border-radius: 100%;
+  background-color: #ffff;
+  color: #588157;
+  font-weight: 700;
+  margin-right: 0.5rem;
+}
+
+/* TotalCompletedItems */
+
+.completed-text {
+  color: #588157;
+  font-family: "satoshi", sans-serif;
+}
